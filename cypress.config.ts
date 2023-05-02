@@ -4,7 +4,7 @@ import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-prepro
 import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild";
 
 export default defineConfig({
-  projectId: '4v4v6d',
+  projectId: 'edj676',
   e2e: {
     specPattern: "**/*.feature",
     async setupNodeEvents(
