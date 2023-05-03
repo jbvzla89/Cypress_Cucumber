@@ -6,6 +6,7 @@ import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild
 export default defineConfig({
   projectId: 'edj676',
   e2e: {
+    experimentalStudio: true,
     specPattern: "**/*.feature",
     async setupNodeEvents(
       on: Cypress.PluginEvents,
