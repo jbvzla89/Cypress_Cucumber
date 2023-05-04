@@ -7,7 +7,7 @@ export default defineConfig({
   projectId: 'edj676',
   e2e: {
     experimentalStudio: true,
-    specPattern: "**/*.feature",
+    //specPattern: "**/*.feature",
     async setupNodeEvents(
       on: Cypress.PluginEvents,
       config: Cypress.PluginConfigOptions
